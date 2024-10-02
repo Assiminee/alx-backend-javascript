@@ -8,7 +8,7 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
 
       for (const response of resp) {
         if (response.status !== 'fulfilled') {
-          response.value = response.reason;
+          response.value = response.reason.toString();
           delete response.reason;
         }
         responses.push(response);
