@@ -5,6 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e677a51-ce7b-4901-91ef-23690ef2e2b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.idea/0x00-ES6_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.idea/0x00-ES6_basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/0-constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/0-constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/1-block-scoped.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/1-block-scoped.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/10-loops.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/10-loops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/100-createIteratorObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/100-createIteratorObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/101-iterateThroughObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/101-iterateThroughObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/11-createEmployeesObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/11-createEmployeesObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/12-createReportObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/12-createReportObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/2-arrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/2-arrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/3-default-parameter.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/3-default-parameter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/4-rest-parameter.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/4-rest-parameter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/5-spread-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/5-spread-operator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/6-string-interpolation.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/6-string-interpolation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/7-getBudgetObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/7-getBudgetObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/8-getBudgetCurrentYear.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/8-getBudgetCurrentYear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/9-getFullBudget.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/9-getFullBudget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x00-ES6_basic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-ES6_basic/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +50,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mnmZKxWIcmpWu04WWnq8sGGj64" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.15.1",
-    "javascript.nodejs.core.library.typings.version": "20.15.0",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.15.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.15.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,6 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727720770737</updated>
       <workItem from="1727720775671" duration="492000" />
+      <workItem from="1727722822931" duration="6877000" />
+      <workItem from="1727898013755" duration="2092000" />
     </task>
     <servers />
   </component>
