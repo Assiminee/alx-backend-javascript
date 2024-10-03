@@ -11,14 +11,6 @@ export class HolbertonClass {
   get location() {
     return this._location;
   }
-
-  set year(value) {
-    this._year = value;
-  }
-
-  set location(value) {
-    this._location = value;
-  }
 }
 
 export class StudentHolberton {
