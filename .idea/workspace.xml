@@ -50,6 +50,8 @@
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/0-classroom.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/0-classroom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/1-make_classrooms.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/1-make_classrooms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/10-car.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/10-car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/10-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/10-main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/2-hbtn_course.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/2-hbtn_course.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/3-currency.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/3-currency.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x02-ES6_classes/4-pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-ES6_classes/4-pricing.js" afterDir="false" />
@@ -122,7 +124,7 @@
       <workItem from="1727720775671" duration="492000" />
       <workItem from="1727722822931" duration="6877000" />
       <workItem from="1727898013755" duration="9363000" />
-      <workItem from="1727977569814" duration="6104000" />
+      <workItem from="1727977569814" duration="6415000" />
     </task>
     <servers />
   </component>
