@@ -4,7 +4,8 @@ const countStudents = (path) => {
     try {
         const data = fs.readFileSync(path, 'utf8');
         const fields = {}
-        const students = data.split('\n')
+        let students = data.split('\n')
+            .map(student => student.trim())
             .filter(student => student.length !== 0);
 
         students.shift();
