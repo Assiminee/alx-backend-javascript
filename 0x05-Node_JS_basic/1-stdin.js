@@ -1,19 +1,15 @@
-const stdin_fd = process.stdin;
-const stdout_fd = process.stdout;
+process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
-stdout_fd.write("Welcome to Holberton School, what is your name?\n");
+process.stdin.setEncoding('utf-8');
 
-stdin_fd.on('readable', () => {
-    let chunk = stdin_fd.read();
+process.stdin.on('readable', () => {
+    let name = process.stdin.read();
 
-    if (chunk !== null) {
-        stdout_fd.write(`Your name is ${chunk}\n`);
+    if (name) {
+        process.stdout.write(`Your name is ${name}`);
     }
 });
 
-if (!stdin_fd.isTTY) {
-    stdin_fd.on('end', () => {
-        stdout_fd.write("This important software is now closing\n");
-        stdout_fd.end();
-    })
-}
+process.stdin.on('end', () => {
+    process.stdout.write('This important software is now closing\n');
+})
