@@ -1,3 +1,3 @@
 const countStudents = require('./2-read_file');
 
-countStudents("datab ase.csv");
+countStudents("database.csv");
