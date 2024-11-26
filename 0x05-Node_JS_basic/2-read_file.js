@@ -13,7 +13,7 @@ const countStudents = (path) => {
         console.log(`Number of students: ${students.length}`);
 
         for (const student of students) {
-            let line = student.trim().split(',');
+            let line = student.split(',');
             let field = line[line.length - 1];
 
             if (!(field in fields)) {
@@ -27,8 +27,6 @@ const countStudents = (path) => {
         for (const [field, values] of Object.entries(fields)) {
             console.log(`Number of students in ${field}: ${values.count}. List: ${values.names.join(', ')}`);
         }
-
-
     } catch (e) {
         console.error('Cannot load the database');
     }
