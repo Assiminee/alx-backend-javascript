@@ -44,11 +44,11 @@ const app = createServer((req, res) => {
     res.end('Hello Holberton School!');
   } else if (req.url === '/students') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.write('This is the list of our students');
     countStudents(db).then((data) => {
-      res.write('This is the list of our students');
       res.end(data);
     }).catch(() => {
-      res.end('Cannot load the database');
+      res.end('\nCannot load the database');
     });
   }
 });
