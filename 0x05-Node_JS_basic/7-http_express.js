@@ -10,8 +10,8 @@ const countStudents = (path) => new Promise((resolve, reject) => {
     let message = '';
     const fields = {};
     const students = data.split('\n')
-        .map((student) => student.trim())
-        .filter((student) => student.length !== 0);
+      .map((student) => student.trim())
+      .filter((student) => student.length !== 0);
 
     students.shift();
 
