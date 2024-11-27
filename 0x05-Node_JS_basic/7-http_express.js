@@ -54,12 +54,12 @@ app.get('/students', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.write('This is the list of our students\n');
   countStudents(dbName)
-      .then((output) => {
-        res.end(output);
-      })
-      .catch(() => {
-        res.end('Cannot load the database');
-      });
+    .then((output) => {
+      res.end(output);
+    })
+    .catch(() => {
+      res.end('Cannot load the database');
+    });
 });
 
 app.listen(1245, 'localhost');
