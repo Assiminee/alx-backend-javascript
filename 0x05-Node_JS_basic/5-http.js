@@ -18,7 +18,7 @@ const countStudents = (path) => {
 
             students.shift();
 
-            message += `Number of students: ${students.length}\n`;
+            message += `Number of students: ${students.length}`;
 
             for (const student of students) {
                 let line = student.split(',');
@@ -33,7 +33,7 @@ const countStudents = (path) => {
             }
 
             for (const [field, values] of Object.entries(fields)) {
-                message += `Number of students in ${field}: ${values.count}. List: ${values.names.join(', ')}\n`
+                message += `\nNumber of students in ${field}: ${values.count}. List: ${values.names.join(', ')}`
             }
             resolve(message);
         });
