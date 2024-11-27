@@ -8,4 +8,3 @@ const mapRoutes = (app) => {
 };
 
 export default mapRoutes;
-module.exports = mapRoutes;
