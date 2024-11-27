@@ -17,7 +17,7 @@ const countStudents = (path) => new Promise((resolve, reject) => {
 
     students.shift();
 
-    message += `Number of students: ${students.length}`;
+    message += `\nNumber of students: ${students.length}`;
 
     for (const student of students) {
       const line = student.split(',');
@@ -38,16 +38,18 @@ const countStudents = (path) => new Promise((resolve, reject) => {
   });
 });
 
-const app = createServer(async (req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Content-Type', 'text/plain');
+const app = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
 
-  if (req.url.endsWith('/')) {
+  if (res.url === '/') {
     res.end('Hello Holberton School!');
-  } else if (req.url.endsWith('/students')) {
-    const count = await countStudents(db);
-    res.end(`This is the list of our students\n${count}`);
+  } else if (req.url === '/students') {
+    countStudents(db).then((data) => {
+      res.write('This is the list of our students');
+      res.end(data);
+    }).catch(() => {
+      res.end('Cannot load the database');
+    });
   }
 });
 
