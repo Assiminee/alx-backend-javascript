@@ -10,9 +10,7 @@ app.get('/', (_req, res) => {
 });
 
 app.get('/cart/:id(\\d+)', (req, res) => {
-  const id = req.params.id;
-
-  res.send(`Payment methods for cart ${id}`);
+  res.send(`Payment methods for cart ${req.params.id}`);
 });
 
 app.get('/available_payments', (_req, res) => {
@@ -20,13 +18,7 @@ app.get('/available_payments', (_req, res) => {
 });
 
 app.post('/login', (req, res) => {
-  let username = '';
-
-  if (req.body) {
-    username = req.body.userName;
-  }
-
-  res.send(`Welcome ${username}`);
+  res.send(`Welcome ${req.body ? req.body.userName : ""}`);
 });
 
 app.listen(PORT, () => {
